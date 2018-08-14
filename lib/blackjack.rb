@@ -44,7 +44,7 @@ def hit?(card_total)
     display_card_total(deal_card)
   else
     invalid_command
-    puts ""
+    puts "Please enter a valid command"
   end
 end
 
