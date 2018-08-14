@@ -65,7 +65,9 @@ def runner
   welcome
   initial_round
   hit
-  
-  
+  until hit>21 do
+    hit
+  end
+end_game
 end
     
