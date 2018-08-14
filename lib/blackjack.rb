@@ -30,10 +30,14 @@ end
 
 def initial_round
   # code #initial_round here
+  current_hand = (deal_card+deal_card)
+  display_card_total(current_hand)
+  return current_hand
 end
 
 def hit?
   # code hit? here
+  
 end
 
 def invalid_command
