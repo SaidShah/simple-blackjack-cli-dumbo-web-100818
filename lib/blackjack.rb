@@ -63,14 +63,10 @@ end
 def runner
   # code runner here
  welcome
- initial_round
+ total = initial_round
  prompt_user
  input = get_user_input
-while input == "s" do
-  prompt_user
-end
 
- 
 end
     
     
