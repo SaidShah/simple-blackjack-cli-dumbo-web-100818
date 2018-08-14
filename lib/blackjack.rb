@@ -66,6 +66,9 @@ def runner
  total = initial_round
  prompt_user
  input = get_user_input
+ until total > 21 do
+   prompt_user
+ end
 
 end
     
