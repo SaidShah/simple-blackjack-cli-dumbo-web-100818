@@ -66,10 +66,10 @@ def runner
  total = initial_round
  prompt_user
  input = get_user_input
- until total > 21 do
+ until input == "h" do
    prompt_user
  end
-
+  
 end
     
     
